@@ -18,8 +18,8 @@
 - [ ] publicly-upload video and return its link
 - [ ] publicly-upload file and return its link
 - [ ] calculator
-- [ ] CryptoCurrency Stock Market
-- [ ] financial tracking
+- [x] CryptoCurrency Stock Market
+- [x] financial tracking
 - [ ] ToDo list manager
 - [ ] Tweet for me
 - [ ] Youtube search

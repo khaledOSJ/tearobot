@@ -5,7 +5,7 @@ def crypto_price(CAP, coin):
     '''cryptocurrency price for ``coin``'''
     response = requests.get(
         'https://min-api.cryptocompare.com/data/price',
-        params={'fsym': coin,
+        params={'fsym': coin.upper(),
                 'tsyms': 'USD,JPY,EUR',
                 'api_key': CAP})
     content = response.json()

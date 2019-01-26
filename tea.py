@@ -120,7 +120,8 @@ def handle_updates(updates):
         elif text.startswith('/crypto_price '):  # /crypto_price command
             message = text.split(' ')[1]
             result = crypto_price(CAP, message)
-            send_message(chat, str(result))
+            final_message = f'The price in USD is {result}'
+            send_message(chat, str(final_message))
 
         elif text == '/crypto_news':  # crypto_news command
             result = crypto_news(CAP)
